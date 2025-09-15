@@ -13,7 +13,7 @@ vxlApp.use(cors());
 vxlApp.use(express.json());
 vxlApp.use(router);
 
-const PORT = process.env.PORT || 3000;
+const PORT = 4000;
 
 vxlApp.listen(PORT, () => {
   console.log(`VXL-App started running at ${PORT}`);
